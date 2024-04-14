@@ -4,3 +4,9 @@ html {
 *, ::after ::before {
     box-sizing: inherit;
 }
+
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eeedef;
+    word-break: break-word;
+}

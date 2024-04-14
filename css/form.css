@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form__input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    overflow: auto;
+}
+
+.form__button {
+    text-transform: capitalize;
+    padding: 10px;
+    color: #ffffff;
+    background-color: darkcyan;
+    border: 2px solid transparent;
+}
+
+.form__button:active {
+    border: 2px solid black;
+}
+
+@media (max-width: 767px) {
+    .form__input {
+        flex-basis: 100%;
+    }
+
+    .form__button {
+        flex-basis: 100%;
+    }
+}

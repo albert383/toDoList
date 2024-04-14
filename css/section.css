@@ -1,0 +1,52 @@
+.section {
+    margin: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #dddddd;
+}
+
+.section__header {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.section__list {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.section__listItem {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.section__listItemText--done {
+    text-decoration: line-through;
+}
+
+.section__button {
+    border: none;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.section__button--done {
+    color: #ffffff;
+    background-color: green;
+}
+
+.done {
+    background-color: rgb(255, 255, 255);
+}
+
+.section__button--remove {
+    color: #ffffff;
+    background-color: red;
+}
