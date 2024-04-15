@@ -1,7 +1,14 @@
 # To Do List
 
-A simple to-do list project written in pure JavaScript. It allows users to add new tasks, mark them as done, and delete them. The project uses HTML, CSS (with flexbox and grid), and JavaScript.
+## About
 
+This project is a simple To-Do List application built using HTML, CSS(with flexbox and grid), and JavaScript. It allows users to add new tasks, mark them as done, and delete them. 
+
+- Clone the repository to your local machine:
+
+   ```bash
+   https://albert383.github.io/toDoList/
+   
 ## Features
 
 - Adding new tasks to the list.
@@ -36,7 +43,4 @@ A simple to-do list project written in pure JavaScript. It allows users to add n
 
 ## How to Run the Project
 
-1. Clone the repository to your local machine:
 
-   ```bash
-   https://albert383.github.io/toDoList/
