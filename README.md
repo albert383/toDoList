@@ -39,4 +39,4 @@ A simple to-do list project written in pure JavaScript. It allows users to add n
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://albert383.github.io/toDoList/
+   https://albert383.github.io/toDoList/
