@@ -41,6 +41,5 @@ This project is a simple To-Do List application built using HTML, CSS(with flexb
 
    - The layout adjusts to different screen sizes for a seamless experience on various devices.
 
-## How to Run the Project
 
 
