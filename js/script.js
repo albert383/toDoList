@@ -51,22 +51,27 @@
 
     for (const task of tasks) {
       htmlString += `
-                  <li
-                    class="section__listItem ${task.done ? "section__listItem--done" : ""}"
-                  >
-                    <button
-                      class="section__button section__button--done js-done">${task.done ? "&#10004;" : ""}</button
-                    > 
-                      <span
-                        class="section__listItemText ${task.done ? "section__listItemText--done" : ""}">${task.content}</span
-                      >
-                        <button
-                          class="section__button section__button--remove js-section__button--remove">&#10006;</button
-                          >
-          </li>
+        <li 
+            class="section__listItem ${task.done ? 
+"section__listItem--done" : ""}"
+        >
+            <button 
+              class="section__button section__button--done 
+js-done">${task.done ? "&#10004;" : ""}
+            </button> 
+            <span 
+                class="section__listItemText ${task.done ? 
+"section__listItemText--done" : ""}"
+            >
+                ${task.content}
+            </span>
+            <button class="section__button section__button--
+remove js-section__button--remove">
+                &#10006;
+            </button>
+        </li>
       `;
-    }
-
+}
     const tasksElement = document.querySelector(".js-tasks");
     if (!tasksElement) {
       return;
