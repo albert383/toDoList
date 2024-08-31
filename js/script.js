@@ -19,13 +19,13 @@
       },
       ...tasks.slice(taskIndex + 1),
     ];
-    render(); 
+    render();
   };
 
   const addNewTask = (newTaskContent) => {
     tasks = [
-      ...tasks, 
-      { 
+      ...tasks,
+      {
         content: newTaskContent,
         done: false,
       }
@@ -45,7 +45,7 @@
     hideDoneTasks = !hideDoneTasks;
     if (hideDoneTasks && tasks.every(({ done }) => !done)) {
       hideDoneTasks = false;
-  };
+    };
     render();
   };
 
@@ -58,8 +58,8 @@
     });
   };
 
-    const bindToggleDoneEvents = () => {
-      const toggleButtonsDone = document.querySelectorAll(".js-done");
+  const bindToggleDoneEvents = () => {
+    const toggleButtonsDone = document.querySelectorAll(".js-done");
 
     toggleButtonsDone.forEach((toggleButtonDone, taskIndex) => {
       toggleButtonDone.addEventListener("click", () => {
@@ -89,7 +89,7 @@
     tasksElement.innerHTML = tasks.map(taskToHTML).join("");
   };
 
-    const renderButtons = () => {
+  const renderButtons = () => {
     const buttonsElement = document.querySelector(".js-buttons");
 
     if (!tasks.length) {
@@ -123,7 +123,7 @@
       toggleHideDoneTasksButton.addEventListener("click", toggleHideDoneTasks);
     }
   };
-  
+
   const render = () => {
     renderTasks();
     renderButtons();
@@ -152,6 +152,9 @@
   };
 
   const init = () => {
+    addNewTask("Przykładowe zadanie 1");
+    addNewTask("Przykładowe zadanie 1");
+
     render();
 
     const formElement = document.querySelector(".js-form");
@@ -166,4 +169,4 @@
   };
 
   init();
-  }
+}
