@@ -28,7 +28,7 @@ This project is a simple To-Do List application built using HTML, CSS(with flexb
    - Enter the task description in the input field under the "Dodaj nowe zadanie" (Add new task) section.
    - Click the "dodaj zadanie" (Add task) button or press Enter to add the task to the list.
 
-   ![Adding Task](https://zapodaj.net/images/1383c33b9ffbf.gif)
+   ![Adding Task](https://ibb.co/kDRVkKJ)
 
 2. **Marking a Task as Done:**
 -Click the green checkmark button next to the task you want to mark as done.
