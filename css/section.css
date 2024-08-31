@@ -4,12 +4,6 @@
     box-shadow: 0 0 5px #dddddd;
 }
 
-section__header {
-    margin: 0;
-    font-size: 1.5em;
-    padding: 20px;
-}
-
 .section__header {
     display: grid;
     grid-template-columns: auto auto;
@@ -23,6 +17,7 @@ section__header {
 @media (max-width: 767px) {
     .section__header {
         grid-template-columns: 1fr;
+        padding: 5px;
     }
 }
 
@@ -46,6 +41,7 @@ section__header {
     transition: color 1s;
     cursor: pointer;
 }
+
 @media (max-width: 767px) {
     .buttons__button {
         flex-direction: column;
@@ -62,6 +58,12 @@ section__header {
     list-style: none;
     margin: 0;
     padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__list {
+        padding: 10px;
+    }
 }
 
 .section__title {
